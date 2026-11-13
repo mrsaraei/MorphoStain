@@ -142,13 +142,15 @@ Train the SOTA baseline (`InverseAE`) and run the complete evaluation suite:
 
 ## 🖥️ Interactive Clinical GUI (`MorphoStain.py`)
 
-Launch the real-time desktop visualization suite to inspect specimen patches interactively:
+Launch the real-time `PyQt6` desktop visualization suite to inspect and unmix specimen patches interactively:
 
     python MorphoStain.py
 
-- **Hardware Acceleration:** Automatically detects and toggles between `CUDA (GPU)`, `MPS (Apple Silicon)`, and `CPU`.
-- **Live Diagnostics:** Computes real-time PSNR, SSIM, MSE, RMSE, Cosine Similarity, LPIPS, and FPS.
-- **Dynamic Uncertainty Thresholding:** Interactive percentile slider (90.0% – 100.0%) for inspecting localized optical defocus and boundary artifacts.
+- **Hardware Acceleration:** Automatically detects and toggles between `CUDA (GPU)`, `MPS (Apple Silicon GPU)`, and `CPU (Optimized SIMD)`.
+- **Multi-Patch Queue & Batch Execution:** Upload single or multiple histopathology patches simultaneously, navigate seamlessly with instant result caching (`◀ Prev` / `Next ▶`), or trigger automated sequential batch processing (`Run All Queue Sequentially`).
+- **Automated Regimen & Burden Profiling:** Dynamically computes the quantitative DAB biomarker split (`Aβ % / Tau %`) and automatically classifies the specimen's staining regimen (`Amyloid-β (6E10) + HTX`, `Tau (AT8) + HTX`, or `Co-Localized`).
+- **Live Reconstruction Diagnostics:** Computes real-time full-reference fidelity and throughput metrics, including PSNR, SSIM, MSE, RMSE, Cosine Similarity, LPIPS, and FPS.
+- **Calibrated Epistemic Uncertainty Viewport:** Renders background-suppressed, tissue-gated uncertainty maps (*u*<sub>var</sub>) paired with an aligned scientific-notation colorbar and an interactive percentile slider (default: 100.0%) to highlight localized optical defocus and boundary artifacts.
 
 ---
 

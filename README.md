@@ -193,7 +193,7 @@ If you find MorphoStain useful in your research, please cite our paper:
 
 ## 🙏 Acknowledgments & Data Availability
 
-Whole-slide neuropathological imaging data were provided by the **Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)** consortium (publicly accessible via the AWS Open Data Registry at `s3://sea-ad-quantitative-neuropathology/`). External breast cancer HER2 IHC validation data were obtained from the **Breast Cancer Immunohistochemical Image Generation (BCI) Challenge** benchmark dataset (available at [bci.grand-challenge.org](http://bci.grand-challenge.org/); Liu et al., 2022).
+Whole-slide neuropathological imaging data were provided by the **Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)** consortium (accessible via the [SEA-AD Data Portal](https://portal.brain-map.org/explore/seattle-alzheimers-disease) and the AWS Open Data Registry at `s3://sea-ad-quantitative-neuropathology/`; Gabitto et al., 2024). External breast cancer HER2 IHC validation data were obtained from the **Breast Cancer Immunohistochemical Image Generation (BCI) Challenge** benchmark dataset (available at [bci.grand-challenge.org](http://bci.grand-challenge.org/); Liu et al., 2022).
 
 ## 📝 License
 

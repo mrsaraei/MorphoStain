@@ -8,6 +8,11 @@ Official PyTorch implementation of **"MorphoStain: Physics-Guided Latent Diffusi
 
 MorphoStain is an unsupervised, physics-guided deep learning framework designed to resolve the mathematically ill-posed problem of unmixing co-localized biomarkers that share identical chromogenic spectra—specifically dual-DAB staining of Amyloid-β (6E10) plaques and phosphorylated Tau (AT8) tangles in Alzheimer's disease whole-slide images (WSIs).
 
+<div align="center">
+  <video src="https://github.com/mrsaraei/MorphoStain/raw/main/morphostain_demo.mp4" width="100%" controls autoplay loop muted playsinline></video>
+  <p><em>Real-time interactive stain decomposition and epistemic uncertainty calibration in the MorphoStain desktop suite.</em></p>
+</div>
+
 ---
 
 ## ✨ Key Highlights

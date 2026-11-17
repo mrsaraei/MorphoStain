@@ -175,21 +175,20 @@ Evaluated across ***N* = 9,908 held-out test patches** from the SEA-AD cohort (B
 - **Uncertainty Calibration:** Expected Calibration Error (**ECE**) of **0.0125**.
 
 ---
-<!--
 ## 📖 Citation
 
 If you find MorphoStain useful in your research, please cite our paper:
 
-    @article{saraei2026morphostain,
-      author  = {Saraei, Mohammadreza and Zand, Maryam and Rahmani, Saba},
-      title   = {MorphoStain: Physics-Guided Latent Diffusion and Morphological Distillation for Multiplex Stain Decomposition in Alzheimer's Neuropathology},
-      journal = {IEEE Journal of Biomedical and Health Informatics},
-      year    = {2026},
-      note    = {Submitted for publication}
-    }
+@article{saraei2026morphostain,
+  author  = {Saraei, Mohammadreza and Zand, Maryam and Rahmani, Saba},
+  title   = {MorphoStain: Physics-Guided Latent Diffusion and Morphological Distillation for Multiplex Stain Decomposition in Alzheimer's Neuropathology},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  year    = {2026},
+  note    = {Submitted for publication}
+}
 
 ---
--->
+
 
 ## 🙏 Acknowledgments & Data Availability
 

@@ -8,7 +8,7 @@
 
 https://github.com/user-attachments/assets/413a3bd9-4f64-4955-af1e-22ba5e63453c
 
-MorphoStain is an unsupervised, physics-guided deep learning framework designed to resolve the mathematically ill-posed problem of unmixing co-localized biomarkers that share identical chromogenic spectra—specifically dual-DAB staining of Amyloid-β (6E10) plaques and phosphorylated Tau (AT8) tangles in Alzheimer's disease whole-slide images (WSIs).
+MorphoStain is an unsupervised, physics-guided deep learning framework that resolves the mathematically ill-posed problem of unmixing co-localized biomarkers with identical chromogenic spectra—specifically dual-DAB staining of Amyloid-β (6E10) plaques and phosphorylated Tau (AT8) tangles in Alzheimer's disease whole-slide images (WSIs).
 
 ---
 
@@ -58,7 +58,7 @@ MorphoStain is an unsupervised, physics-guided deep learning framework designed 
 
 1. **Clone the repository:**
 
-       git clone [https://github.com/mrsaraei/MorphoStain.git](https://github.com/mrsaraei/MorphoStain.git)
+       git clone https://github.com/mrsaraei/MorphoStain.git
        cd MorphoStain
 
 2. **Create a Conda environment and install dependencies:**
